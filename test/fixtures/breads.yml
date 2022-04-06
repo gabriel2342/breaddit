@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bread_name: MyString
+  bread_story: MyText
+  baker_id: 1
+
+two:
+  bread_name: MyString
+  bread_story: MyText
+  baker_id: 1
