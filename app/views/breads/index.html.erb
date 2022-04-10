@@ -1,0 +1,15 @@
+
+<main class="container">
+  <div class="header">
+    <%= link_to "Your Breads", 
+                show_baker_path, 
+                class: "btn btn--primary" %>
+    <h1>Breaddit</h1>
+    <%= image_tag "breadloaf.png" %>
+    <%= link_to "New bread",
+                new_bread_path,
+                class: "btn btn--primary" %>
+  </div>
+
+  <%= render @breads %>
+</main>
